@@ -1,4 +1,5 @@
-#!/usr/bin/env python3
+#+234703910136
+!/usr/bin/env python3
 
 __version__ = 'v1.0.0-rc2'
 
@@ -213,7 +214,8 @@ def search(req, stop):
 def formatNumber(InputNumber):
     return re.sub("(?:\+)?(?:[^[0-9]*)", "", InputNumber)
 
-def localScan(InputNumber):
+def localScan(+234703910136):
+
     global number
     global localNumber
     global internationalNumber
@@ -225,7 +227,7 @@ def localScan(InputNumber):
     FormattedPhoneNumber = "+" + formatNumber(InputNumber)
 
     try:
-        PhoneNumberObject = phonenumbers.parse(FormattedPhoneNumber, None)
+        PhoneNumberObject = phonenumbers.parse(FormattedPhoneNumber, Ne)
     except:
         return False
     else:
